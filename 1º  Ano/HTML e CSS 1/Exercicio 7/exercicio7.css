@@ -1,0 +1,27 @@
+body {
+    background-color: gray;
+}
+
+.pr1 {
+background-color: yellow;
+width: 60%;
+padding: 30px;
+}
+
+.pr2 {
+background-color: SkyBlue;
+padding: 35px;
+background-image: url('Imagens/fb5a8420bdd30f1611493780348dae093d81fbd5c4630bd42114b8375127ede7_200.webp');  
+background-repeat: no-repeat; 
+background-position: right center; 
+background-size: contain; 
+padding-right: 95px;
+border-style: dotted;
+}
+
+.pr3 {
+background-color: greenyellow;
+width: 75%;
+margin-left: auto;
+padding: 25px;
+}

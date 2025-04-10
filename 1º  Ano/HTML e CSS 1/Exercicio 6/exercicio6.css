@@ -1,0 +1,38 @@
+body {
+    background-color: gray;
+}
+
+ol {
+    list-style-type: none; 
+    padding: 0;
+    background-color: beige;
+    max-width: 230px;
+    border: solid red;
+    padding: 10px;
+}
+
+
+.li1 {
+    padding-left: 24px; 
+    background-image: url('Imagens/star.jpg');
+    background-repeat: no-repeat;
+    background-size: 16px 16px; 
+    line-height: 24px;
+    vertical-align: middle; 
+}
+
+
+.li2 {
+    padding-left: 24px; 
+    background-image: url('Imagens/check.png');
+    background-repeat: no-repeat;
+    background-size: 16px 16px; 
+    line-height: 24px; 
+    vertical-align: middle; 
+    list-style-type: none;
+}
+
+h3 {
+    color: blue;
+    text-decoration: 3px underline blue;
+}

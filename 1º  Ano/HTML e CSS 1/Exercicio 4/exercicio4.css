@@ -1,0 +1,20 @@
+h1 {
+    border-bottom: dotted red;
+}
+
+body {
+    background-color: blue;
+}
+
+p {
+    color: white;
+border: solid white;
+padding: 15px;
+margin: 20px;
+text-align:center;
+}
+
+h1 {
+    color: white;
+font-family: "Comic Sans Ms";
+}

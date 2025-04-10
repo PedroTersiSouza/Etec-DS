@@ -1,0 +1,19 @@
+div {
+    margin: 10px;
+    padding: 10px;
+    margin-bottom: 20px;
+    font-family: Tahoma;
+    font-size: 14px;
+}
+
+.pr1 {
+    background-color: #FFFF99;
+  }
+  
+  .pr2 {
+    background-color: #66CCFF;
+  }
+  
+  .pr3 {
+    background-color: #99FF66;
+  }

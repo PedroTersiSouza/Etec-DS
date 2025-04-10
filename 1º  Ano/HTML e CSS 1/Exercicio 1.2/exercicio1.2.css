@@ -1,0 +1,26 @@
+body {
+    background-color: gray;
+}
+
+.pr1 {
+    background-color: #FFFF99; 
+    border: 2px dotted;
+    text-align: right;
+    margin-left: auto;
+}
+  
+  .pr2 {
+    background-color: #66CCFF;
+width: 75%;  
+border: 2px dotted;
+text-align: right;
+margin-left: auto;
+}
+  
+  .pr3 {
+    background-color: #99FF66;
+width: 60%;
+border: 2px dotted;
+text-align: right;
+margin-left: auto;
+}

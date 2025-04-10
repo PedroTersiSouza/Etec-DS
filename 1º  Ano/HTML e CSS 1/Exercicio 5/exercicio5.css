@@ -1,0 +1,29 @@
+body {
+    background-color: blue;
+}
+
+p {
+    color: white;
+border: solid white;
+padding: 15px;
+margin: 20px;
+text-align:center;
+font-family: Monaco;
+}
+
+h1 {
+    color: white;
+font-family: "Comic Sans Ms";
+border-bottom: dotted red;
+}
+
+h2 {
+    font-family: "Comic Sans Ms";
+    border-bottom: double #33FFFF;
+color: yellow;
+}
+
+.pr2 {
+    background-color: black;
+    font-family: #ccc;
+}
