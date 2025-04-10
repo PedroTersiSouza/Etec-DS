@@ -1,0 +1,39 @@
+.div3 {
+    background-color: #99FF66;
+}
+
+.div2 {
+    background-color: black;
+}
+
+.div1 {
+    background-color: #FFFF99;
+}
+
+.sub2 {
+    color: #FFCC00;
+    font-family: Arial;
+    font-size: 20px;
+    font-weight: bold; 
+    text-decoration: underline; 
+}
+
+.sub13 {
+    color: maroon;
+    font-family: Arial;
+    font-size: 20px;
+    font-weight: bold; 
+    text-decoration: underline;
+}
+
+.pr1 {
+  color: navy;
+}
+  
+  .pr2 {
+  color: #FFFFFF;
+}
+  
+  .pr3 {
+  color: black;
+}
