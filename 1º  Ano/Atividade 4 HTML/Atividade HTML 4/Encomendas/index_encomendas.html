@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Encomendar Bolos</title>
+</head>
+<body>
+    <header>
+        <h1>Pães Doces e Bolos</h1>
+        <ul>
+            <li><a href="index.html">Página Principal</a></li>
+            <li><a href="index_encomendas.html">Encomendar Bolo</a></li>
+        </ul>
+    </header>
+    <main>
+        <h2>Encomendar Bolo</h2>
+        <form name="formulario" method="get">
+            <label for="Nome">Nome Completo:</label>
+            <input type="text" placeholder="Informe o Nome" id="Nome" name="Nome" size="35" maxlength ="35">
+            <form name="formulario2" method="get">
+                <label for="DDD">DDD</label>
+                <span class="parentheses">(</span>
+                <input type="text" placeholder="DDD" id="DDD" name="DDD" size="4" maxlength ="2">
+                <span class="parentheses">)</span>
+            <form name="formulario3" method="get">
+                <label for="Tele">Telefone</label>
+                <input type="text" placeholder="Telefone" id="Tele" name="Tele" size="12" maxlength ="12">
+
+    <table border>
+    <caption>Bolos</caption>
+<tr>
+    <td><img src="Imagens/imagens/Bolo01.png" width="200" alt="Bolo de Chocolate"></td>
+    <td><img src="Imagens/imagens/Bolo02.png" width="200" alt="Bolo de Frutas"></td>
+    <td><img src="Imagens/imagens/Bolo03.png" width="200" alt="Bolo Misto"></td>
+</tr>
+<tr>
+    <th>Chocolate</th>
+    <th>Frutas</th>
+    <th>Misto</th>
+</tr>
+</table>
+<form action="/submit_sabor" method="post">
+    <label for="sabor">Sabor:</label>
+    <select id="sabor" name="sabor">
+        <option value="" disabled selected>Escolha</option>
+        <option value="chocolate">Chocolate</option>
+        <option value="Frutas">Frutas</option>
+        <option value="Misto">Misto</option>
+    </select>
+   
+    <form action="/submit_sabor" method="post">
+        <label for="tipo">Tipo:</label>
+        <input type="radio" id="simples" name="sabor" value="simples">
+        <label for="sabor_morango">Simples</label>
+        
+        <input type="radio" id="Detalhe" name="sabor" value="detalhado">
+        <label for="sabor_chocolate">Detalhado</label><br><br>
+        
+<form name="taman" method="get">
+    <label for="Tamanho">Tamanho</label>
+    <input type="number" id="tama" name="Tama" maxlength="3" min="1" max="10" required>kg<input type="radio" id="diet" name="diet" value="diet">
+    <label for="diet">Diet?</label>
+    </form> 
+    Observações:<br>
+    <textarea id="observacoes" name="observacoes" rows="3" cols="80" placeholder="Digite suas observações"></textarea><br><br>
+    <input type="submit" value="Enviar Pedido">
+    <input type="reset" value="Limpar">
+</main>
+</body>
+</html>
